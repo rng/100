@@ -1,0 +1,132 @@
+html {
+  background-color: #E61F0D;
+}
+
+/* Flex divs not really being utilized right now */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-container>div {
+  /* height: 120vh; */
+  /* line-height: 0.55em; */
+  color: #ffffff;
+  font-size: 250px;
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 150px;
+}
+
+/* Placeholder divs for media */
+
+.flex-holder {
+  height: 600px;
+  width: 600px;
+  background-color: #ffffff;
+}
+
+/* Divs for the artists names */
+
+.names {
+  height: 600px;
+  width: 600px;
+  text-align: center;
+  cursor: default;
+  line-height: 0.8em;
+}
+
+/* The Jasper Johns entire painting */
+
+.vertical-painting {
+  width: 600px;
+  height: 600px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top: 100px;
+  left: 100px;
+}
+
+/* For the background colors and text colors of the Jasper Johns painting */
+
+.purple {
+  background-color: #9a3fa8;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  letter-spacing: normal;
+  writing-mode: horizontal-tb;
+}
+
+.blue {
+  background-color: #356daf;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  letter-spacing: normal;
+  writing-mode: horizontal-tb;
+}
+
+.orange {
+  background-color: #eb9938;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  letter-spacing: normal;
+  writing-mode: horizontal-tb;
+}
+
+.pink {
+  background-color: #f581e9;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  letter-spacing: normal;
+  writing-mode: horizontal-tb;
+}
+
+.teal {
+  background-color: #28ab93;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  letter-spacing: normal;
+  writing-mode: horizontal-tb;
+}
+
+.green {
+  background-color: #28ab49;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  letter-spacing: normal;
+  writing-mode: horizontal-tb;
+}
+
+.g {
+  color: #28ab49;
+  font-size: 90px;
+}
+
+.pr {
+  color: #9a3fa8;
+  font-size: 90px;
+}
+
+.p {
+  color: #f581e9;
+  font-size: 90px;
+}
+
+.o {
+  color: #eb9938;
+  font-size: 90px;
+}
+
+.b {
+  color: #356daf;
+  font-size: 90px;
+}
